@@ -1,0 +1,86 @@
+{
+  "maquinas": [
+    {
+      "id": "1",
+      "codigo": "M001",
+      "nome": "Torno CNC",
+      "modelo": "CNC 3000",
+      "fabricante": "Siemens",
+      "dataAquisicao": "2020-01-10",
+      "tempoVidaEstimado": 10,
+      "localizacao": "Linha 1",
+      "detalhes": "Operacao em alta precisao",
+      "manual": "URL do manual"
+    }
+  ],
+  "historicoManutencao": [
+    {
+      "id": "1",
+      "maquinaId": 1,
+      "data": "2024-10-07",
+      "tipo": "Preventiva",
+      "pecasTrocadas": "Correia",
+      "tempoDeParada": 4,
+      "tecnicoId": "João Silva",
+      "observacoes": "Substituição preventiva da correia."
+    },
+    {
+      "0": {
+        "id": "2",
+        "maquinaId": 2,
+        "data": "2024-10-08",
+        "tipo": "Corretiva",
+        "pecasTrocadas": "Oleo",
+        "tempoDeParada": 5,
+        "tecnicoId": "Kaio Silva",
+        "observacoes": "Troca do Oleo bem sucedida."
+      },
+      "id": "9b7f"
+    },
+    {
+      "tempoDeParada": 48,
+      "observacoes": "OK",
+      "tipo": "Corretiva",
+      "data": "2020-08-12",
+      "maquinaId": "2",
+      "pecasTrocadas": "8",
+      "tecnicoId": "Ygor",
+      "id": "f158"
+    }
+  ],
+  "falhas": [
+    {
+      "id": "1",
+      "maquinaId": 1,
+      "data": "2024-09-28",
+      "problema": "Falha no motor",
+      "prioridade": "Alta",
+      "operador": "Carlos Lima"
+    },
+    {
+      "0": {
+        "id": "2",
+        "maquinaId": 2,
+        "data": "2024-09-8",
+        "problema": "Falha no Botão de ligar",
+        "prioridade": "Alta",
+        "operador": "Eduardo Lima"
+      },
+      "id": "8bca"
+    }
+  ],
+  "tecnicos": [
+    {
+      "id": "1",
+      "nome": "João Silva",
+      "especialidade": "Mecânica",
+      "disponibilidade": "Livre"
+    },
+    {
+      "id": "2fc9",
+      "especialidade": "TI",
+      "disponibilidade": "Ocupado",
+      "nome": "Ygor"
+    }
+  ]
+}
